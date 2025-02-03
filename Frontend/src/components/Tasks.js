@@ -16,7 +16,7 @@ export default function Tasks() {
 
     const getTasks = async () => {
         try {
-            const res = await fetch("http://localhost:3001/tasks", {
+            const res = await fetch("https://task-management-backend-y5jk.onrender.com/tasks", {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json"
