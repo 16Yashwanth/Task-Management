@@ -1,4 +1,4 @@
-# Taks Management System using MERN
+# Tasks Management System using MERN
 
 A simple MERN project that lets the user insert, update, delete & get tasks from the MongoDB.
 
