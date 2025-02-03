@@ -27,7 +27,7 @@ export default function UpdateTask() {
     useEffect(() => {
         const getTask = async () => {
             try {
-                const res = await fetch(`http://localhost:3001/tasks/${id}`, {
+                const res = await fetch(`https://task-management-backend-y5jk.onrender.com/tasks/${id}`, {
                     method: "GET",
                     headers: {
                         "Content-Type": "application/json"
@@ -64,7 +64,7 @@ export default function UpdateTask() {
         setError("");
 
         try {
-            const response = await fetch(`http://localhost:3001/updatetask/${id}`, {
+            const response = await fetch(`https://task-management-backend-y5jk.onrender.com/updatetask/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json"
