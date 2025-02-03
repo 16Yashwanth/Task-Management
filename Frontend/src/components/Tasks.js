@@ -37,7 +37,7 @@ export default function Tasks() {
     };
 
     const deleteTask = async (id) => {
-        const response = await fetch(`http://localhost:3001/deletetask/${id}`, {
+        const response = await fetch(`https://task-management-backend-y5jk.onrender.com/deletetask/${id}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json"
