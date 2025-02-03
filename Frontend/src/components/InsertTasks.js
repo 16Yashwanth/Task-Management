@@ -36,7 +36,7 @@ export default function InsertTask() {
         setError("");
 
         try {
-            const res = await fetch("http://localhost:3001/addtask", {
+            const res = await fetch("https://task-management-backend-y5jk.onrender.com/addtask", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
